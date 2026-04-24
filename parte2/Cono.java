@@ -83,7 +83,7 @@ public class Cono {
     public static float calcularVolumen(float altura, float radioBase){
         float volumen = 0, aux = 0;
         aux = radioBase * radioBase;
-        volumen = Float.parseFloat("3.14") * aux * altura / radioBase;
+        volumen = Float.parseFloat("3.1416") * aux * altura / radioBase;
         return volumen;
     }
 

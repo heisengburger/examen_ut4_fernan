@@ -24,7 +24,9 @@ public class Main {
         listado.add(cono3);
         listado.add(cono4);
 
-        float aux = Integer.MIN_VALUE;
+        for (Cono c : listado){
+            c.solicitarValores();
+        }
 
         for (Cono c : listado){
             System.out.println(c.toString());
