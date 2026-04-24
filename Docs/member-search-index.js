@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"ets.examen","c":"Mainb","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"ets.examen","c":"Mainb","l":"Mainb()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"ets.examen","c":"Mainb","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"ets.examen","c":"Mainb","l":"Mainb()","u":"%3Cinit%3E()"},{"p":"ets.examen","c":"Mainb","l":"msg(int)"}];updateSearchResults();

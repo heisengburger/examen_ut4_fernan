@@ -27,6 +27,17 @@ public class Mainb {
             anioInicial++;
             continue;
         }
+        msg(primerAnioPrimo);
+        return;
+    }
+
+    /**
+     * Msg.
+     *
+     * @param primerAnioPrimo the primer anio primo
+     */
+
+    public static void msg(int primerAnioPrimo){
         System.out.println("El primer año primo encontrado es " + primerAnioPrimo);
         if (primerAnioPrimo % 2 != 0) {
         } else System.out.println("que es un año par");
@@ -35,6 +46,5 @@ public class Mainb {
                 System.out.println("y está comprendido entre 2008 y 2033");
             }
         }
-        return;
     }
 }
