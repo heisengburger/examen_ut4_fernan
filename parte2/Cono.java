@@ -110,4 +110,14 @@ public class Cono {
 
         JOptionPane.showMessageDialog(null, "Volumen del cubo: " + calcularVolumen(altura, radioBase));
     }
+
+    @Override
+    public String toString() {
+        return "Cono{" +
+                "altura=" + altura +
+                ", radioBase=" + radioBase +
+                ", areaBase=" + calcularAreaBase(this.altura, this.radioBase) +
+                ", volumen=" + calcularVolumen(this.altura, this.radioBase) +
+                '}';
+    }
 }
